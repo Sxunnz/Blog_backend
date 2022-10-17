@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sanxun-blog" />
         <module name="sanxun-admin" />
+        <module name="sanxun-blog" />
         <module name="sanxun-framework" />
       </profile>
     </annotationProcessing>
