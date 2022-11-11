@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/article")
 
 public class ArticleController {
-    @Autowired
+    @Autowired(required = false)
     private ArticleService articleService;
 
     @GetMapping("/hotArticleList")
@@ -20,4 +20,5 @@ public class ArticleController {
         ResponseResult result = articleService.hotArticleList();
         return result;
     }
+
 }
